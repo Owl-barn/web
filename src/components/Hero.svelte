@@ -1,4 +1,9 @@
+<script>
+    import Owl from "./art/Owl.svelte";
+</script>
+
 <header>
+    <Owl />
     <h1>Hootsifer</h1>
     <p>A multi-purpose Discord bot</p>
     <!-- <p>Trusted by <b>{props.status.memberCount}</b> members</p>
@@ -7,8 +12,11 @@
 
 <style lang="scss">
     header {
+        text-align: center;
+
         & h1 {
-            margin-bottom: 6px;
+            font-weight: 400;
+            font-size: 3rem;
         }
 
         & p {
